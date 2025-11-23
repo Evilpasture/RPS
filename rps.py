@@ -235,7 +235,7 @@ SPDX-License-Identifier: MIT
             "Easy": self.easy_ai
         }
 
-        selected_strategy = strategies.get(self.difficulty.get(), lambda _: random.choice(self.all_moves))
+        selected_strategy = strategies.get(self.difficulty.get(), lambda: random.choice(self.all_moves))
 
         return selected_strategy(move)
 
@@ -271,8 +271,6 @@ SPDX-License-Identifier: MIT
         self.highlight_button(btn, color)
         self.highlight_button(self.get_button_by_choice(computer_choice), "yellow")
         return f"Your choice: {user_choice}\nComputer choice: {computer_choice}\nResult: {result}", color
-
-    #show_message = lambda self, msg: messagebox.showinfo(title="Result", message=msg)
 
     print_output = lambda self, msg, color: self.text.config(text=msg, fg=color)
 
