@@ -7,7 +7,7 @@ This is a rock paper scissors program with Tkinter and AI logic
 
 # Details
 
-1. The program initializes the GUI and variables in the __init__ function.
+1. The program initializes the GUI by creating a class function and stores variables in the __init__ function.
 2. The program uses different AIs in different difficulties chosen by the user.
 3. The program uses a cascading menu (multi-level dropdown) to show various functions like showing "About", "License", "Options",...
 4. The option menu shows a pop-up which contains AI toggling and difficulty options.
