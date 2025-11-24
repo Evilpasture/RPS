@@ -16,9 +16,9 @@
 
 6. Easy AI (Dễ): đảm bảo thắng 100%.
 
-7. Normal AI (Trung bình): dùng học máy Markov và tạo sự khó đoán, giống như một ván chơi bình thường.
+7. Normal AI (Trung bình): dùng học máy xích Markov và tạo sự khó đoán, giống như một ván chơi bình thường.
 
-8. Hard AI (Khó): dự đoán mạnh mẽ dựa trên Markov, AI mang tính quyết định, không bao giờ chọn ngẫu nhiên để giữ sự khó đoán.
+8. Hard AI (Khó): dự đoán mạnh mẽ dựa trên xích Markov, AI mang tính quyết định, không bao giờ chọn ngẫu nhiên để giữ sự khó đoán.
 
 9. Chương trình thoát một cách gọn gàng với cửa sổ xác nhận.
 
