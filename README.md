@@ -18,4 +18,4 @@ Despite the AI logic, humans can counter-play the AI, therefore it's easy to def
 
 # Note
 
-[README.md Tiếng Việt](../README-vn.md)
+[README.md Tiếng Việt](README-vn.md)
