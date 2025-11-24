@@ -69,7 +69,7 @@ SPDX-License-Identifier: MIT
 
         self.ai_state = tk.IntVar()
 
-        self.difficulty = tk.StringVar(value="Normal")
+        self.difficulty = tk.StringVar(value="disabled")
 
         self.hint = tk.Label(self.root, text="You can press 1, 2, 3 respectively!", font=('Arial', 14))
         self.hint.pack(padx=10, pady=10)
@@ -182,6 +182,9 @@ SPDX-License-Identifier: MIT
     # AI
 
     def markov_ai(self):
+        if not self.previous_inputs or len(self.previous_inputs) < 2
+            return random.choice(self.all_moves)
+        
         last_move = self.previous_inputs[-1]
         next_move_counts = self.transitions.get(last_move, {"Rock": 1, "Paper": 1, "Scissors": 1})
         predicted_move = max(next_move_counts, key=next_move_counts.get)
@@ -224,7 +227,7 @@ SPDX-License-Identifier: MIT
 
     # predictive + randomized AI (KEYWORD: PREDICTIVE)
     def computer_ai(self, move):
-        if not self.ai_state.get():
+        if not self.ai_state.get() or not self.previous_inputs:
             return random.choice(self.all_moves)
 
         strategies = {
