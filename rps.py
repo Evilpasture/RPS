@@ -205,7 +205,7 @@ SPDX-License-Identifier: MIT
 
     def hard_ai(self, _btn=None): # very "easy", sarcasm
         last_move = (self.previous_inputs and self.previous_inputs[-1]) or random.choice(self.all_moves)
-        computer_choice = self.winning_moves[last_move]
+        computer_choice = self.counter[last_move]
         if len(self.previous_inputs) > 1 and self.previous_inputs[-1] == self.previous_inputs[-2]:
             computer_choice = self.predict_last_moves(self.previous_inputs[-1], self.previous_inputs[-2])
         return computer_choice
