@@ -22,6 +22,8 @@
 
 8. Hard AI (Khó): dự đoán mạnh mẽ dựa trên xích Markov, AI mang tính quyết định, không bao giờ chọn ngẫu nhiên để giữ sự khó đoán.
 
-9. Chương trình thoát một cách gọn gàng với cửa sổ xác nhận.
+9. Chương trình ghi lại kết quả trò chơi bằng bảng điểm, và sẽ được đặt lại khi người dùng chọn hành động đó từ menu nhiều cấp (cascading menu) ở trên thanh menu.
+
+10. Chương trình thoát một cách gọn gàng với cửa sổ xác nhận.
 
 Dù có logic AI, con người vẫn có thể đối phó và thắng AI nếu tìm ra đúng quy luật.
