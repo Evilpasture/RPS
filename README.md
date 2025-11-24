@@ -15,3 +15,7 @@ This is a rock paper scissors program with Tkinter and AI logic
 9. The program gracefully exits with a confirmation popup.
 
 Despite the AI logic, humans can counter-play the AI, therefore it's easy to defeat the AI with the correct patterns.
+
+# Note
+
+[README.md Tiếng Việt](../README-vn.md)
