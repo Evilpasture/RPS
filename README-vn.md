@@ -1,5 +1,7 @@
 [English README.md](README.md)
 
+[Python file](rps.py)
+
 # KÉO BÚA BAO
 
 Đây là một chương trình chơi “Kéo – Búa – Bao” được viết bằng Tkinter và có logic AI.
