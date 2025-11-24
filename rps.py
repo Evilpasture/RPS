@@ -191,7 +191,6 @@ SPDX-License-Identifier: MIT
     def predict_last_moves(self, last_move, second_last_move): # so that you can't just hold a button and win
         if last_move == second_last_move:
             possible_moves = [move for move in self.all_moves if move != self.winning_moves[last_move]]
-            computer_choice = random.choice(possible_moves)
             if len(self.previous_inputs) > 2:
                 third_last_move = self.previous_inputs[-3]
                 if third_last_move == last_move:
