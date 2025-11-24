@@ -6,7 +6,7 @@
 
 # Chi tiết
 
-1. Chương trình khởi tạo giao diện (GUI) và các biến trong hàm init.
+1. Chương trình khởi tạo giao diện (GUI) bằng cách tạo một "class" và lưu các biến trong hàm __init__
 
 2. Người chơi có thể chọn mức độ khó khác nhau, mỗi mức sẽ dùng một loại AI khác nhau.
 
