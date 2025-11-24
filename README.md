@@ -24,6 +24,6 @@ Despite the AI logic, humans can counter-play the AI, therefore it's easy to def
 
 # Markov chain
 
-Does markov stuff
-Use laplace smoothing
-Doesn't use markov chain prediction when there are under 2 rounds of RPS played
+- Does markov stuff
+- Use laplace smoothing
+- Doesn't use markov chain prediction when there are under 2 rounds of RPS played
