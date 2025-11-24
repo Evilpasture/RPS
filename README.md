@@ -21,3 +21,9 @@ This is a rock paper scissors program with Tkinter and AI logic
 10. The program gracefully exits with a confirmation popup.
 
 Despite the AI logic, humans can counter-play the AI, therefore it's easy to defeat the AI with the correct patterns.
+
+# Markov chain
+
+Does markov stuff
+Use laplace smoothing
+Doesn't use markov chain prediction when there are under 2 rounds of RPS played
