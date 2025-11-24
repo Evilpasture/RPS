@@ -18,6 +18,8 @@ class GUI:
         self.action_menu.add_separator()
         self.action_menu.add_command(label="Reset", command=self.reset)
 
+        # ABOUT AND LICENSE - IGNORE
+        
         self.about_menu = tk.Menu(self.menubar, tearoff=0)
         self.about_menu.add_command(label="About", command=lambda: messagebox.showinfo("About",
 """
