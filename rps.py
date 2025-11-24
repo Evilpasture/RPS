@@ -67,13 +67,9 @@ SPDX-License-Identifier: MIT
 
         self.ai_state = tk.IntVar()
 
-        # self.easy_state = tk.IntVar()
-        # self.toggle_easy = tk.Checkbutton(self.root, text="Easy Mode", font=('Arial', 16), variable=self.easy_state)
-
         self.difficulty = tk.StringVar(value="Normal")
 
         self.hint = tk.Label(self.root, text="You can press 1, 2, 3 respectively!", font=('Arial', 14))
-        #self.hint.place(x=100, y=200, height=100, width=400)
         self.hint.pack(padx=10, pady=10)
 
 
@@ -95,6 +91,7 @@ SPDX-License-Identifier: MIT
         self.button_frame.pack(fill = 'x')
 
         self.root.bind("<KeyPress>", self.shortcut)
+        
         # data (i/o)
         self.previous_inputs = []
         self.all_moves = ['Rock', 'Paper', 'Scissors']
