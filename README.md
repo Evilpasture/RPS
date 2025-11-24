@@ -14,7 +14,7 @@ This is a rock paper scissors program with Tkinter and AI logic
 3. The program uses a cascading menu (multi-level dropdown) to show various functions like showing "About", "License", "Options",...
 4. The option menu shows a pop-up which contains AI toggling and difficulty options.
 5. By default, the program will play random moves without any AI logic.
-6. Easy AI guarantees a win, 100%.
+6. Easy AI guarantees a win, 30%.
 7. Normal AI uses Markovian learning and unpredictablity that is usually expected in a normal RPS game.
 8. Hard AI uses aggressive prediction with Markovian learning and the AI is deterministic, which will never pick moves randomly to maintain unpredictability.
 9. The program records the game with a scoreboard and resets when the user clicked the action from the cascading menu.
