@@ -1,3 +1,5 @@
+[English README.md](README.md)
+
 # KÉO BÚA BAO
 
 Đây là một chương trình chơi “Kéo – Búa – Bao” được viết bằng Tkinter và có logic AI.
