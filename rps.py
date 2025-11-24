@@ -223,7 +223,7 @@ SPDX-License-Identifier: MIT
 
         return random.choice(self.all_moves)
 
-    easy_ai = lambda self, btn: self.winning_moves[self.handle_button_object(btn)]
+    easy_ai = lambda self, btn: self.winning_moves[self.handle_button_object(btn)] if random.random() <= 0.3 else random.choice(self.all_moves)
 
     # predictive + randomized AI (KEYWORD: PREDICTIVE)
     def computer_ai(self, move):
