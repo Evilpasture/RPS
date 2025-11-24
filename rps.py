@@ -182,7 +182,7 @@ SPDX-License-Identifier: MIT
     # AI
 
     def markov_ai(self):
-        if not self.previous_inputs or len(self.previous_inputs) < 2
+        if not self.previous_inputs or len(self.previous_inputs) < 2:
             return random.choice(self.all_moves)
         
         last_move = self.previous_inputs[-1]
