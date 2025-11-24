@@ -18,7 +18,7 @@
 
 5. Mặc định, chương trình sẽ chơi ngẫu nhiên, không dùng logic AI.
 
-6. Easy AI (Dễ): đảm bảo thắng 100%.
+6. Easy AI (Dễ): đảm bảo thắng 30%.
 
 7. Normal AI (Trung bình): dùng học máy xích Markov và tạo sự khó đoán, giống như một ván chơi bình thường.
 
