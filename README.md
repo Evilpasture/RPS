@@ -1,5 +1,7 @@
 [README.md Tiếng Việt](README-vn.md)
 
+[Python executable](rps.py)
+
 
 # ROCK PAPER SCISSORS
 
